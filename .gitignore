@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (raw dataset is not committed)
+data/*
+!data/README.md
+*.parquet
+*.csv
+*.csv.gz
